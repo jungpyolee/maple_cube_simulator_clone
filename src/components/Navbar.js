@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "antd";
+import { Button, Col, Row } from "antd";
 import {
   CalculatorFilled,
   DeleteFilled,
@@ -13,24 +13,42 @@ function Navbar() {
   return (
     <div className="nav_body">
       <div className="nav_left">
-        <Button className="nav_left_button">
-          <MenuOutlined />
-        </Button>
-        <Button className="nav_left_button">
-          <EnvironmentFilled />
-        </Button>
-        <Button className="nav_left_button">
-          <CalculatorFilled />
-        </Button>
-        <Button className="nav_left_button">
-          <SettingFilled />
-        </Button>
-        <Button className="nav_left_button">
-          <DeleteFilled />
-        </Button>
-        <Button className="nav_left_button">
-          <ShareAltOutlined />
-        </Button>
+        <Row gutter={[12, 16]}>
+          <Col lg={4}>
+            <button className="nav_left_button">
+              <MenuOutlined />
+            </button>
+          </Col>
+          <Col lg={4}>
+            {" "}
+            <button className="nav_left_button">
+              <EnvironmentFilled />
+            </button>
+          </Col>
+          <Col lg={4}>
+            {" "}
+            <button className="nav_left_button">
+              <CalculatorFilled />
+            </button>
+          </Col>
+          <Col lg={4}>
+            {" "}
+            <button className="nav_left_button">
+              <SettingFilled />
+            </button>
+          </Col>
+          <Col lg={4}>
+            <button className="nav_left_button">
+              <DeleteFilled />
+            </button>
+          </Col>
+          <Col lg={4}>
+            {" "}
+            <button className="nav_left_button">
+              <ShareAltOutlined />
+            </button>
+          </Col>
+        </Row>
       </div>
 
       <div></div>

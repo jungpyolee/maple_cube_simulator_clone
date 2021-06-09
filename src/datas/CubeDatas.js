@@ -28,7 +28,7 @@ export const additionaloptiontier = [
   { _id: 4, name: "레전드리" },
 ];
 
-export const redcubeFirstOption = [
+export const redCubeFirstOption = [
   { weight: 9.7561, id: "STR+12%" },
   { weight: 9.7561, id: "DEX : +12%" },
   { weight: 9.7561, id: "INT : +12%" },
@@ -47,7 +47,7 @@ export const redcubeFirstOption = [
   { weight: 7.3171, id: "보스 몬스터 공격 시 데미지 : +40%" },
 ];
 
-export const redcubeSecondOption = [
+export const redCubeSecondOption = [
   { weight: 10.0, id: "STR : +9%" },
   { weight: 10.0, id: "DEX : +9%" },
   { weight: 10.0, id: "INT : +9%" },
@@ -190,7 +190,7 @@ export const blackCubeThirdOption = [
   { weight: 0.488, id: "보스 몬스터 공격 시 데미지 : +40%" },
 ];
 
-export const additionalFirstOption = [
+export const additionalCubeFirstOption = [
   { weight: 7.5, id: "최대 HP : +10%" },
   { weight: 7.5, id: "최대 MP : +10%" },
   { weight: 5.0, id: "공격력 : +12%" },
@@ -213,7 +213,7 @@ export const additionalFirstOption = [
   { weight: 2.5, id: "보스 몬스터 공격 시 데미지 : +18%" },
 ];
 
-export const additionalSecondOption = [
+export const additionalCubeSecondOption = [
   { weight: 6.94, id: "최대 HP : +7%" },
   { weight: 6.94, id: "최대 MP : +7%" },
   { weight: 4.63, id: "공격력 : +9%" },
@@ -255,7 +255,7 @@ export const additionalSecondOption = [
   { weight: 0.01, id: "보스 몬스터 공격 시 데미지 : +18%" },
 ];
 
-export const additionalThirdOption = [
+export const additionalCubeThirdOption = [
   { weight: 6.94, id: "최대 HP : +7%" },
   { weight: 6.94, id: "최대 MP : +7%" },
   { weight: 4.63, id: "공격력 : +9%" },

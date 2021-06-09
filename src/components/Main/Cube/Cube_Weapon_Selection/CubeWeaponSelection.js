@@ -1,5 +1,5 @@
 import { Select, Col, Row } from "antd";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   weapontype,
   weaponlevel,
@@ -16,9 +16,30 @@ function CubeWeaponSelection() {
   const [weaponType, setWeaponType] = useState(0);
   const [weaponLevel, setWeaponLevel] = useState(0);
   const [optionTier, setOptionTier] = useState(0);
-  const [additionalOptionTier, setAdditioanlOptionTier] = useState(0);
+  const [additionalOptionTier, setAdditionalOptionTier] = useState(0);
   const [price, setPrice] = useState(0);
   const [count, setCount] = useState(0);
+  const [data1, setData1] = useState("큐브를 돌려주세요!");
+  const [data2, setData2] = useState("큐브를 돌려주세요!");
+  const [data3, setData3] = useState("큐브를 돌려주세요!");
+  const [data4, setData4] = useState("큐브를 돌려주세요!");
+  const [data5, setData5] = useState("큐브를 돌려주세요!");
+  const [data6, setData6] = useState("큐브를 돌려주세요!");
+
+  useEffect(() => {
+    handleReset();
+  }, [weaponType, weaponLevel, optionTier, additionalOptionTier]);
+
+  const handleReset = () => {
+    setPrice(0);
+    setCount(0);
+    setData1("큐브를돌려주세요!");
+    setData2("큐브를돌려주세요!");
+    setData3("큐브를돌려주세요!");
+    setData4("큐브를돌려주세요!");
+    setData5("큐브를돌려주세요!");
+    setData6("큐브를돌려주세요!");
+  };
   const handleWeaponType = (value) => {
     setWeaponType(value);
   };
@@ -32,7 +53,7 @@ function CubeWeaponSelection() {
   };
 
   const handleAdditionalOptionTier = (value) => {
-    setAdditioanlOptionTier(value);
+    setAdditionalOptionTier(value);
   };
 
   const refreshPrice = (newPrice) => {
@@ -42,6 +63,27 @@ function CubeWeaponSelection() {
   const refreshCount = (newCount) => {
     setCount(newCount);
   };
+
+  const refreshData1 = (newData) => {
+    setData1(newData);
+  };
+  const refreshData2 = (newData) => {
+    setData2(newData);
+  };
+  const refreshData3 = (newData) => {
+    setData3(newData);
+  };
+
+  const refreshData4 = (newData) => {
+    setData4(newData);
+  };
+  const refreshData5 = (newData) => {
+    setData5(newData);
+  };
+  const refreshData6 = (newData) => {
+    setData6(newData);
+  };
+
   return (
     <div>
       <div className="cube_body">
@@ -141,13 +183,36 @@ function CubeWeaponSelection() {
           </Col>
         </Row>
         {/* 윗잠 */}
-        <CubeOption optionTier={optionTier} />
+        <CubeOption
+          data1={data1}
+          data2={data2}
+          data3={data3}
+          optionTier={optionTier}
+        />
         {/* 밑잠 */}
-        <AdditionalCubeOption additionalOptionTier={additionalOptionTier} />
+        <AdditionalCubeOption
+          data4={data4}
+          data5={data5}
+          data6={data6}
+          additionalOptionTier={additionalOptionTier}
+        />
       </div>
       <div>
         <CubeCost count={count} price={price} />
-        <CubeButtons refreshCount={refreshCount} refreshPrice={refreshPrice} />
+        <CubeButtons
+          refreshData1={refreshData1}
+          refreshData2={refreshData2}
+          refreshData3={refreshData3}
+          refreshData4={refreshData4}
+          refreshData5={refreshData5}
+          refreshData6={refreshData6}
+          refreshCount={refreshCount}
+          refreshPrice={refreshPrice}
+          weaponType={weaponType}
+          weaponLevel={weaponLevel}
+          optionTier={optionTier}
+          additionalOptionTier={additionalOptionTier}
+        />
       </div>
     </div>
   );

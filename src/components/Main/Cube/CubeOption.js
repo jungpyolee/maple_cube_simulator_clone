@@ -24,9 +24,9 @@ function CubeOption(props) {
       </div>
 
       <div className="cubeOption_options">
-        <div>옵션1</div>
-        <div>옵션2</div>
-        <div>옵션3</div>
+        <div>{props.data1}</div>
+        <div>{props.data2}</div>
+        <div>{props.data3}</div>
       </div>
     </div>
   );
