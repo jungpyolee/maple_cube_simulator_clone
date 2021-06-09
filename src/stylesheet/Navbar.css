@@ -1,0 +1,38 @@
+.nav_body {
+  margin: 0 15%;
+  max-width: 975px;
+  padding: 1%;
+}
+
+.nav_bar {
+  height: 40px;
+}
+.nav_left {
+  display: flex;
+}
+.nav_left_button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+  border-color: #69c166;
+  background-color: #2a2a2a;
+  color: #69c166;
+}
+
+.nav_left_button:hover {
+  background-color: #69c166;
+  border-color: #69c166;
+  color: white;
+}
+
+.nav_left_button:active {
+  background-color: #69c166;
+  border-color: #69c166;
+}
+
+.nav_left_button:last-child {
+  margin-right: 0;
+}
