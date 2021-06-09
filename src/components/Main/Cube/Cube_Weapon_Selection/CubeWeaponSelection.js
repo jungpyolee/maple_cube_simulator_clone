@@ -9,6 +9,7 @@ import {
 import "../../../../stylesheet/CubeWeaponSelection.css";
 import AdditionalCubeOption from "../AdditionalCubeOption";
 import CubeButtons from "../CubeButtons";
+import CubeCost from "../CubeCost";
 import CubeOption from "../CubeOption";
 
 function CubeWeaponSelection() {
@@ -16,7 +17,8 @@ function CubeWeaponSelection() {
   const [weaponLevel, setWeaponLevel] = useState(0);
   const [optionTier, setOptionTier] = useState(0);
   const [additionalOptionTier, setAdditioanlOptionTier] = useState(0);
-
+  const [price, setPrice] = useState(0);
+  const [count, setCount] = useState(0);
   const handleWeaponType = (value) => {
     setWeaponType(value);
   };
@@ -33,6 +35,13 @@ function CubeWeaponSelection() {
     setAdditioanlOptionTier(value);
   };
 
+  const refreshPrice = (newPrice) => {
+    setPrice(newPrice);
+  };
+
+  const refreshCount = (newCount) => {
+    setCount(newCount);
+  };
   return (
     <div>
       <div className="cube_body">
@@ -131,11 +140,14 @@ function CubeWeaponSelection() {
             </div>
           </Col>
         </Row>
+        {/* 윗잠 */}
         <CubeOption optionTier={optionTier} />
+        {/* 밑잠 */}
         <AdditionalCubeOption additionalOptionTier={additionalOptionTier} />
       </div>
       <div>
-        <CubeButtons />
+        <CubeCost count={count} price={price} />
+        <CubeButtons refreshCount={refreshCount} refreshPrice={refreshPrice} />
       </div>
     </div>
   );
