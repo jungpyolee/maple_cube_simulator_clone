@@ -1,0 +1,24 @@
+.cubeOption_body {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+}
+
+.cubeOption_rare {
+  color: rgb(102, 255, 255);
+}
+.cubeOption_epic {
+  color: rgb(153, 102, 255);
+}
+.cubeOption_unique {
+  color: rgb(255, 204, 0);
+}
+.cubeOption_legendary {
+  color: rgb(204, 255, 0);
+}
+
+.cubeOption_options {
+  margin-top: 5px;
+  color: #69c166;
+}

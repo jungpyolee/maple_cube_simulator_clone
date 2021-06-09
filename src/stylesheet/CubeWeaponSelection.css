@@ -18,7 +18,12 @@
 .weaponSelection_select {
   margin-left: 5px;
   width: 100%;
+  text-align: center;
+  font-weight: 700;
 }
 
+.weaponSelection_option {
+  text-align: center;
+}
 .weapon_type {
 }
