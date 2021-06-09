@@ -1,0 +1,24 @@
+.weaponSelection_body {
+  width: 90%;
+  padding: 1%;
+  padding-left: 10%;
+  color: #69c166;
+  margin: 0 auto;
+}
+
+.weaponSelection_box {
+}
+
+.weaponSelection_text {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  word-break: keep-all;
+}
+.weaponSelection_select {
+  margin-left: 5px;
+  width: 100%;
+}
+
+.weapon_type {
+}

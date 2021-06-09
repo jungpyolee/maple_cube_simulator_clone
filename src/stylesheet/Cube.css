@@ -1,7 +1,7 @@
 .cube_body {
-  height: 340px;
   border: 1px solid #69c166;
   border-radius: 8px;
   margin: 0 15%;
   background-color: rgba(0, 0, 0, 0.6);
+  padding: 1%;
 }
