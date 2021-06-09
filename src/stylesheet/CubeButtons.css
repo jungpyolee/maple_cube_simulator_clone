@@ -1,0 +1,71 @@
+.cubeButtons_container {
+  width: 60%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.cubeButtons_col {
+  display: flex;
+  justify-content: center;
+}
+.cubeButtons_row {
+}
+.cubeButtons {
+  cursor: pointer;
+  width: 150px;
+  height: 35px;
+  color: white;
+  border: none;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.redCube {
+  background-color: #dd6666;
+}
+
+.redCube:hover {
+  background-color: #dd6666;
+  color: white;
+  filter: brightness(90%);
+}
+
+.redCube:active {
+  background-color: #dd6666;
+  color: white;
+  filter: brightness(110%);
+}
+
+.blackCube {
+  background-color: #444444;
+}
+
+.blackCube:hover {
+  background-color: #444444;
+  color: white;
+  filter: brightness(90%);
+}
+
+.blackCube:active {
+  background-color: #444444;
+  color: white;
+  filter: brightness(110%);
+}
+
+.additionalCube {
+  background-color: #6fa54c;
+}
+
+.additionalCube:hover {
+  background-color: #6fa54c;
+  color: white;
+  filter: brightness(90%);
+}
+
+.additionalCube:active {
+  background-color: #6fa54c;
+  color: white;
+  filter: brightness(110%);
+}
