@@ -37,14 +37,14 @@ export const redCubeFirstOption = [
   { weight: 4.878, id: "마력 : +12%" },
   { weight: 4.878, id: "크리티컬 확률 : +12%" },
   { weight: 4.878, id: "데미지 : +12%" },
-  { weight: 4.878, id: "올스탯 : +9%" },
+  { weight: 7.3171, id: "올스탯 : +9%" },
   { weight: 4.878, id: "캐릭터 기준 10레벨 당 공격력 : +1" },
   { weight: 4.878, id: "캐릭터 기준 10레벨 당 마력 : +1" },
   { weight: 4.878, id: "몬스터 방어율 무시 : +35%" },
   { weight: 4.878, id: "몬스터 방어율 무시 : +40%" },
   { weight: 4.878, id: "보스 몬스터 공격 시 데미지 : +30%" },
   { weight: 4.878, id: "보스 몬스터 공격 시 데미지 : +35%" },
-  { weight: 7.3171, id: "보스 몬스터 공격 시 데미지 : +40%" },
+  { weight: 4.878, id: "보스 몬스터 공격 시 데미지 : +40%" },
 ];
 
 export const redCubeSecondOption = [
