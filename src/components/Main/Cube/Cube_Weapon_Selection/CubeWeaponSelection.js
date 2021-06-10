@@ -15,8 +15,8 @@ import CubeOption from "../CubeOption";
 function CubeWeaponSelection() {
   const [weaponType, setWeaponType] = useState(0);
   const [weaponLevel, setWeaponLevel] = useState(0);
-  const [optionTier, setOptionTier] = useState(0);
-  const [additionalOptionTier, setAdditionalOptionTier] = useState(0);
+  const [optionTier, setOptionTier] = useState(4);
+  const [additionalOptionTier, setAdditionalOptionTier] = useState(4);
   const [price, setPrice] = useState(0);
   const [count, setCount] = useState(0);
   const [data1, setData1] = useState("큐브를 돌려주세요!");
@@ -143,6 +143,7 @@ function CubeWeaponSelection() {
                 onChange={handleOptionTier}
                 placeholder="윗잠 등급을 선택해주세요"
                 className="weaponSelection_select"
+                value="레전드리"
               >
                 {optiontier.map((item) => (
                   <Select.Option
@@ -168,6 +169,7 @@ function CubeWeaponSelection() {
                 onChange={handleAdditionalOptionTier}
                 placeholder="밑잠 등급을 선택해주세요"
                 className="weaponSelection_select"
+                value="레전드리"
               >
                 {additionaloptiontier.map((item) => (
                   <Select.Option

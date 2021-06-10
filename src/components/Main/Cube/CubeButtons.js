@@ -22,6 +22,7 @@ function CubeButtons(props) {
     props.optionTier,
     props.additionalOptionTier,
   ]);
+
   var rwc = require("random-weighted-choice");
 
   var redFirstOption = rwc(redCubeFirstOption);
@@ -37,37 +38,64 @@ function CubeButtons(props) {
   const [price, setPrice] = useState(0);
   const [count, setCount] = useState(0);
   const onRedCube = () => {
-    setCount(count + 1);
-    setPrice(price + 1200);
+    if (
+      !props.weaponType ||
+      !props.weaponLevel ||
+      !props.optionTier ||
+      !props.additionalOptionTier
+    ) {
+      alert("장비 옵션을 선택해주세요!");
+    } else {
+      setCount(count + 1);
+      setPrice(price + 1200);
 
-    props.refreshPrice(price + 1200);
-    props.refreshCount(count + 1);
-    props.refreshData1(redFirstOption);
-    props.refreshData2(redSecondOption);
-    props.refreshData3(redThirdOption);
+      props.refreshPrice(price + 1200);
+      props.refreshCount(count + 1);
+      props.refreshData1(redFirstOption);
+      props.refreshData2(redSecondOption);
+      props.refreshData3(redThirdOption);
+    }
   };
 
   const onBlackCube = () => {
-    setCount(count + 1);
-    setPrice(price + 2200);
-    props.refreshPrice(price + 2200);
-    props.refreshCount(count + 1);
+    if (
+      !props.weaponType ||
+      !props.weaponLevel ||
+      !props.optionTier ||
+      !props.additionalOptionTier
+    ) {
+      alert("장비 옵션을 선택해주세요!");
+    } else {
+      setCount(count + 1);
+      setPrice(price + 2200);
+      props.refreshPrice(price + 2200);
+      props.refreshCount(count + 1);
 
-    props.refreshPrice(price + 1200);
-    props.refreshCount(count + 1);
-    props.refreshData1(blackFirstOption);
-    props.refreshData2(blackSecondOption);
-    props.refreshData3(blackThirdOption);
+      props.refreshPrice(price + 1200);
+      props.refreshCount(count + 1);
+      props.refreshData1(blackFirstOption);
+      props.refreshData2(blackSecondOption);
+      props.refreshData3(blackThirdOption);
+    }
   };
 
   const onAdditionalCube = () => {
-    setCount(count + 1);
-    setPrice(price + 2400);
-    props.refreshPrice(price + 2400);
-    props.refreshCount(count + 1);
-    props.refreshData4(additionalFirstOption);
-    props.refreshData5(additionalSecondOption);
-    props.refreshData6(additionalThirdOption);
+    if (
+      !props.weaponType ||
+      !props.weaponLevel ||
+      !props.optionTier ||
+      !props.additionalOptionTier
+    ) {
+      alert("장비 옵션을 선택해주세요!");
+    } else {
+      setCount(count + 1);
+      setPrice(price + 2400);
+      props.refreshPrice(price + 2400);
+      props.refreshCount(count + 1);
+      props.refreshData4(additionalFirstOption);
+      props.refreshData5(additionalSecondOption);
+      props.refreshData6(additionalThirdOption);
+    }
   };
 
   return (
