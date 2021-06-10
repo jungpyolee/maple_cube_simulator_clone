@@ -19,7 +19,7 @@
 
    <img style="width: 300px;" src="./src/mapleclonegif/1.gif">
 
-2. 시작등급을 선택하면 옵션의 색이 변합니다.
+2. 시작등급을 선택하면 옵션의 색이 변합니다.(등급업 미구현으로 색만 변화)
 <br/>
 
    <img  style="width: 300px;" src="./src/mapleclonegif/2.gif">
