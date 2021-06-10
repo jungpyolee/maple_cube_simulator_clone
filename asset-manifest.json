@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/maplestory_gotcha_clone/static/css/main.bd1dd523.chunk.css",
-    "main.js": "/maplestory_gotcha_clone/static/js/main.887807aa.chunk.js",
-    "main.js.map": "/maplestory_gotcha_clone/static/js/main.887807aa.chunk.js.map",
+    "main.js": "/maplestory_gotcha_clone/static/js/main.33a6db84.chunk.js",
+    "main.js.map": "/maplestory_gotcha_clone/static/js/main.33a6db84.chunk.js.map",
     "runtime-main.js": "/maplestory_gotcha_clone/static/js/runtime-main.c796fcab.js",
     "runtime-main.js.map": "/maplestory_gotcha_clone/static/js/runtime-main.c796fcab.js.map",
     "static/css/2.8c5372c1.chunk.css": "/maplestory_gotcha_clone/static/css/2.8c5372c1.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.8c5372c1.chunk.css",
     "static/js/2.dce9414c.chunk.js",
     "static/css/main.bd1dd523.chunk.css",
-    "static/js/main.887807aa.chunk.js"
+    "static/js/main.33a6db84.chunk.js"
   ]
 }
