@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/maplestory_gotcha_clone/static/css/main.bd1dd523.chunk.css",
-    "main.js": "/maplestory_gotcha_clone/static/js/main.33a6db84.chunk.js",
-    "main.js.map": "/maplestory_gotcha_clone/static/js/main.33a6db84.chunk.js.map",
-    "runtime-main.js": "/maplestory_gotcha_clone/static/js/runtime-main.c796fcab.js",
-    "runtime-main.js.map": "/maplestory_gotcha_clone/static/js/runtime-main.c796fcab.js.map",
-    "static/css/2.8c5372c1.chunk.css": "/maplestory_gotcha_clone/static/css/2.8c5372c1.chunk.css",
-    "static/js/2.dce9414c.chunk.js": "/maplestory_gotcha_clone/static/js/2.dce9414c.chunk.js",
-    "static/js/2.dce9414c.chunk.js.map": "/maplestory_gotcha_clone/static/js/2.dce9414c.chunk.js.map",
-    "static/js/3.1a62d0a1.chunk.js": "/maplestory_gotcha_clone/static/js/3.1a62d0a1.chunk.js",
-    "static/js/3.1a62d0a1.chunk.js.map": "/maplestory_gotcha_clone/static/js/3.1a62d0a1.chunk.js.map",
-    "index.html": "/maplestory_gotcha_clone/index.html",
-    "static/css/2.8c5372c1.chunk.css.map": "/maplestory_gotcha_clone/static/css/2.8c5372c1.chunk.css.map",
-    "static/css/main.bd1dd523.chunk.css.map": "/maplestory_gotcha_clone/static/css/main.bd1dd523.chunk.css.map",
-    "static/js/2.dce9414c.chunk.js.LICENSE.txt": "/maplestory_gotcha_clone/static/js/2.dce9414c.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/maplestory_gotcha_clone/static/media/rehelen.1999e81a.jpg"
+    "main.css": "/maple_cube_simulator_clone/static/css/main.8613815b.chunk.css",
+    "main.js": "/maple_cube_simulator_clone/static/js/main.33a6db84.chunk.js",
+    "main.js.map": "/maple_cube_simulator_clone/static/js/main.33a6db84.chunk.js.map",
+    "runtime-main.js": "/maple_cube_simulator_clone/static/js/runtime-main.b98c83df.js",
+    "runtime-main.js.map": "/maple_cube_simulator_clone/static/js/runtime-main.b98c83df.js.map",
+    "static/css/2.8c5372c1.chunk.css": "/maple_cube_simulator_clone/static/css/2.8c5372c1.chunk.css",
+    "static/js/2.2d21c23a.chunk.js": "/maple_cube_simulator_clone/static/js/2.2d21c23a.chunk.js",
+    "static/js/2.2d21c23a.chunk.js.map": "/maple_cube_simulator_clone/static/js/2.2d21c23a.chunk.js.map",
+    "static/js/3.1a62d0a1.chunk.js": "/maple_cube_simulator_clone/static/js/3.1a62d0a1.chunk.js",
+    "static/js/3.1a62d0a1.chunk.js.map": "/maple_cube_simulator_clone/static/js/3.1a62d0a1.chunk.js.map",
+    "index.html": "/maple_cube_simulator_clone/index.html",
+    "static/css/2.8c5372c1.chunk.css.map": "/maple_cube_simulator_clone/static/css/2.8c5372c1.chunk.css.map",
+    "static/css/main.8613815b.chunk.css.map": "/maple_cube_simulator_clone/static/css/main.8613815b.chunk.css.map",
+    "static/js/2.2d21c23a.chunk.js.LICENSE.txt": "/maple_cube_simulator_clone/static/js/2.2d21c23a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/maple_cube_simulator_clone/static/media/rehelen.1999e81a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c796fcab.js",
+    "static/js/runtime-main.b98c83df.js",
     "static/css/2.8c5372c1.chunk.css",
-    "static/js/2.dce9414c.chunk.js",
-    "static/css/main.bd1dd523.chunk.css",
+    "static/js/2.2d21c23a.chunk.js",
+    "static/css/main.8613815b.chunk.css",
     "static/js/main.33a6db84.chunk.js"
   ]
 }
