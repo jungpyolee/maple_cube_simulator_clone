@@ -15,10 +15,26 @@
 > 기능 설명
 
 1. 페이지의 너비에따라 레이아웃이 변하도록 반응형으로 제작하였습니다.
-   <img src="./src/mapleclonegif/1.gif">
-1. 잠재옵션 시작등급을 선택하면 <잠재옵션>의 색이 변합니다.
+<br/>
 
-1. 에디셔널 잠재옵션 시작등급을 선택하면 <에디셔널 잠재옵션>의 색이 변합니다.
-1. 큐브 버튼을 클릭하면 큐브별로 지정된 확률에 의해 잠재 옵션이 설정됩니다.
+   <img style="width: 300px;" src="./src/mapleclonegif/1.gif">
+
+1. 시작등급을 선택하면 옵션의 색이 변합니다.
+<br/>
+
+   <img  style="width: 300px;" src="./src/mapleclonegif/2.gif">
+
+1. 큐브 버튼을 클릭하면 각 큐브별로 지정된 확률에 의해 잠재 옵션이 설정되고 사용 큐브 개수와 금액이 설정됩니다.
+<br/>
+
+   <img  style="width: 300px;" src="./src/mapleclonegif/3.gif">
+
 1. 장비 분류나 장비 레벨을 변경하면 설정된 잠재 옵션과 사용 큐브 개수, 사용 금액이 초기화됩니다.
+<br/>
+
+   <img  style="width: 300px;" src="./src/mapleclonegif/4.gif">
+
 1. 장비 분류와 장비 레벨을 선택하지 않고 큐브 버튼을 클릭 시 안내메시지가 출력됩니다.
+<br/>
+
+   <img  style="width: 300px;" src="./src/mapleclonegif/5.gif">
