@@ -5,3 +5,9 @@
   background-color: rgba(0, 0, 0, 0.6);
   padding: 1%;
 }
+
+@media screen and (max-width: 768px) {
+  .cube_body {
+    margin: 0;
+  }
+}
